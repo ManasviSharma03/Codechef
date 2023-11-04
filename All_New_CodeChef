@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main(void) {
+	// your code goes here
+	int x,y;
+	scanf("%d%d", &x, &y);
+	if(x>y)
+	{
+	    printf("new\n");
+	}
+	else if(x<y)
+	{
+	    printf("old\n");
+	}
+	else
+	{
+	    printf("same\n");
+	}
+	    
+	
+	return 0;
+}
+
