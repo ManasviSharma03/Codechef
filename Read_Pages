@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main(void) {
+	// your code goes here
+	int T;
+	scanf("%d",&T);
+	while(T--){
+	int N, X, Y;
+	scanf("%d%d%d", &N, &X, &Y);
+	if((X*Y)>=N)
+	{
+	    printf("\nYES");
+	}
+	else
+	{
+	    printf("\nNO");
+	}
+ }
+	return 0;
+}
+
